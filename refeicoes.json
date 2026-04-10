@@ -1,0 +1,15 @@
+{
+    "refeicoes": [
+        {
+            "data_hora": "2026-04-10 10:47",
+            "alimento": "maça",
+            "calorias": 200
+        }
+    ],
+    "habitos": [
+        {
+            "data": "2026-04-10",
+            "habito": "Bebeu 2L+ de água"
+        }
+    ]
+}

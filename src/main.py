@@ -1,4 +1,5 @@
 import json
+from api_saude import exibir_dica_saude
 import os
 from datetime import datetime
 
@@ -74,6 +75,7 @@ def main():
         print("2. Listar Refeições")
         print("3. Registrar Hábito Saudável")
         print("4. Sair")
+        print("5. Dica de Alimento Saudavel")
         print("===============================")
         escolha = input("Escolha uma opção: ")
 
@@ -83,6 +85,8 @@ def main():
             listar_refeicoes(data)
         elif escolha == '3':
             registrar_habito(data)
+        elif escolha == '5':
+            exibir_dica_saude()
         elif escolha == '4':
             print("Saindo do programa. Mantenha os hábitos!")
             break

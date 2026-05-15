@@ -33,3 +33,18 @@ Abaixo estão as capturas de tela do sistema em operação, demonstrando o regis
 
 ![Registro de Refeição](img/evidencia1.png)
 ![Registro de Hábito](img/evidencia2.png)
+
+## Deploy / Execução Remota
+
+Este projeto é uma aplicação CLI. Para executá-lo:
+
+```bash
+git clone https://github.com/PvZin222/bootcamp-habitos-saudaveis.git
+cd bootcamp-habitos-saudaveis
+pip install -r requirements.txt
+python -m src.main
+```
+
+## Integração com API Pública
+
+A aplicação consome a API pública **Open Food Facts** (https://world.openfoodfacts.org) para exibir dicas de alimentos saudáveis. Selecione a opção **5** no menu principal para acessar essa funcionalidade. Não é necessária chave de autenticação.
